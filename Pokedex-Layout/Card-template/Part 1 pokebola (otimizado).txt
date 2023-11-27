@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 591.5 317">
+  <style type="text/css">
+    .st6 { fill: #f97316; } <!-- Cor do elemento  --> 
+  </style>
+  <g id="Elementos">
+    <g id="podebola" class="st6">
+      <path d="M559.45,288.94h-183.8c-6.77-38.5-40.32-67.74-80.7-67.74s-73.94,29.24-80.7,67.74H30.44C37.87,149.1,153.44,38,294.95,38S552.03,149.1,559.45,288.94z"/>
+    </g>
+  </g>
+</svg>
