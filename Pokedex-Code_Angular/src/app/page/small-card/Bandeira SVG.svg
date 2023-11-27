@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="41 47 99 143" width="100%" height="100%">
+  <style type="text/css">
+    .st7 { fill: #f90; }
+  </style>
+  <g id="Elementos">
+    <g id="Bandeiras">
+      <polygon class="st7" points="41,134 90,162 140,134 140,47 41,47"/>
+      <!-- os dois 47 são as pontas de cima -->
+      <!-- o 134 é o ponto de baixo à esquerda -->
+      <!-- o 162 é o ponto de baixo ao centro -->
+      <!-- o 134 é o ponto de baixo à direita -->
+    </g>
+  </g>
+</svg>

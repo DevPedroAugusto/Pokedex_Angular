@@ -1,0 +1,29 @@
+#more-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 300px;
+    height: 363px;
+
+    background-color: #808080;
+    border-radius: 25px 0px 25px 25px;
+}
+
+#horizontal-line {
+    position: absolute;
+    height: 15px;
+    width: 80px;
+
+    border-radius: 10px;
+    background-color: #262b2a;
+}
+#vertical-line {
+    position: absolute;
+    width: 15px;
+    height: 80px;
+
+    border-radius: 10px;
+    background-color: #262b2a;
+}

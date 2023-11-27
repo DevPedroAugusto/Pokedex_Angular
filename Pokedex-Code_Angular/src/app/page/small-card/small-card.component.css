@@ -1,0 +1,174 @@
+#content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#card-container {
+    display: flex;
+    flex-direction: column;
+
+    width: 300px;
+    height: 363px;
+
+    background-color: #808080;
+    border-radius: 25px 0px 25px 25px;
+}
+
+/* Card Header */
+
+#card-header {
+    position: relative;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+
+    width: 100%;
+    height: 45%;
+}
+
+#card-header #pokebal-part {
+    width: 211px;
+    margin-bottom: 7px;
+}
+
+#card-header .up-part{
+    fill: #363636;
+}
+
+#card-header #flags {
+    position: absolute;
+    width: 40px;
+    height: 10px;
+    background-color: #363636;
+
+    right: 0;
+    top: 0;
+}
+
+#card-header .first-flag {
+    display: flex;
+    z-index: 4;
+    position: absolute;
+    width: 40px;
+
+    right: 0;
+    fill: #363636;
+}
+
+#card-header .second-flag {
+    cursor: pointer;
+    z-index: 3;
+    position: absolute;
+    width: 40px;
+
+    right: 0;
+    top: 12px;
+    fill: #4d4d4d;
+    transition: 0.5s;
+}
+
+#card-header .second-flag:hover {
+    top: 27px;
+}
+
+#card-header .three-flag {
+    z-index: 1;
+    cursor: pointer;
+    position: absolute;
+    width: 40px;
+
+    right: 0;
+    top: 25px;
+    fill: #666666;
+    transition: 0.5s;
+}
+
+#card-header .three-flag:hover {
+    top: 39px;
+}
+
+/* Card Body */
+
+#card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    height: 55%;
+
+    background-color: #4d4d4d;
+    border-radius: 25px;
+}
+
+#card-body #pokemon-name {
+    min-height: 58px;
+    width: 100%;
+
+    /* background-color: rgba(250, 235, 215, 0.592); */
+}
+
+#card-body #pokemon-stats {
+    width: 230px;
+    height: 100%;
+
+    /* background-color: #dd1818; */
+}
+
+#pokemon-stats .line-stats {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+    padding: 0 5px;
+
+    width: 100%;
+    height: 22px;
+
+    border-radius: 22px;
+    transition: transform 0.1s;
+}
+
+#pokemon-stats .line-stats:hover {
+    transform: scale(1.01);
+}
+
+#pokemon-stats .resalt {
+    background-color: #666;
+}
+
+#pokemon-stats .name-stats {
+    position: absolute;
+    font-size: 10px;
+
+    left: 10px;
+}
+
+#pokemon-stats .stats {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+    width: 77%;
+    height: 100%;
+}
+
+#pokemon-stats .stats-number {
+    position: absolute;
+    width: 100%;
+    height: 60%;
+
+    padding-left: 5px;
+
+    border-radius: 13px;
+    background-color: #b3b3b3;
+    font-size: 12px;
+    color: transparent;
+    transition: color 0.5s;
+}
+
+#pokemon-stats .stats-number:hover{
+    color: #363636;
+}

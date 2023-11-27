@@ -1,0 +1,34 @@
+#loading-card-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 300px;
+    height: 363px;
+
+    background-color: #808080;
+    border-radius: 25px 0px 25px 25px;
+}
+
+.point {
+    width: 20px;
+    height: 20px;
+
+    border-radius: 20px;
+    background-color: #262b2a;
+}
+
+#first-point {
+    position: absolute;
+    margin-right: 45px;
+}
+
+#second-point {
+    position: absolute;
+}
+
+#three-point {
+    position: absolute;
+    margin-left: 45px;
+}
