@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1558 2322">
+  <style>
+    .st0{fill:#808080;} .st1{fill:#BE1330;} .st2{fill:#4D4D4D;} .st3{fill:#666666;} .st4{fill:#3F3F3F;}
+    .st5{fill:#333333;} .st6{display:none;stroke:#000000;stroke-miterlimit:10;} .st7{opacity:0.51;}
+    .st8{fill:#1A1A1A;} .st9{fill:#B3B3B3;} .st10{fill:#999999;} .st11{fill:#3D3D3D;} .st12{fill:none;
+    stroke:#4D4D4D;stroke-width:11;stroke-miterlimit:10;} .st13{fill:#424242;} .st14{fill:#353535;}
+    .st15{fill:#515151;} .st16{fill:#303030;} .st17{display:none;} .st18{display:inline;} .st19{fill:#F2F2F2;}
+  </style>
+  <g id="Paleta"></g>
+  <g id="Pokedex">
+    <g id="Camada_13">
+      <path class="st9" d="M1365.09,538H1348V142h17.09c41.37,0,74.91,33.54,74.91,74.91v246.17C1440,504.46,1406.46,538,1365.09,538z"/>
+      <path class="st3" d="M232,2248h-63c-27.61,0-50-22.39-50-50V123c0-27.61,22.39-50,50-50h63V2248z"/>
+      <line class="st12" x1="119" y1="262.5" x2="232" y2="262.5"/>
+      <line class="st12" x1="119" y1="2060.5" x2="232" y2="2060.5"/>
+      <polygon class="st2" points="1376.38,292 1376,292 1376,340 1376,389 1376.38,389 1411.5,340.5"/>
+      <path class="st0" d="M1273.09,2248H232V73h1041.09c41.37,0,74.91,33.54,74.91,74.91v2025.17C1348,2214.46,1314.46,2248,1273.09,2248z"/>
+      <path class="st2" d="M1191.86,2160H389.14c-38.74,0-70.14-31.4-70.14-70.14V232.14c0-38.74,31.4-70.14,70.14-70.14h802.72c38.74,0,70.14,31.4,70.14,70.14v1857.72C1262,2128.6,1230.6,2160,1191.86,2160z"/>
+    </g>
+  </g>
+</svg>
