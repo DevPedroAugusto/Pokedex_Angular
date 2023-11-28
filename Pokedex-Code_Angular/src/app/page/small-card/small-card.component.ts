@@ -6,7 +6,7 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './small-card.component.html',
-  styleUrl: './small-card.component.css'
+  styleUrls: ['./small-card.component.css', './small-card-colors.component.css' ]
 })
 export class SmallCardComponent {
 

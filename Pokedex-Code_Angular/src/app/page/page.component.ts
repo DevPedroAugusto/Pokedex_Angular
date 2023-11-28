@@ -11,7 +11,7 @@ import { PokedexComponent } from './pokedex/pokedex.component';
   standalone: true,
   imports: [CommonModule, PokedexComponent, SmallCardComponent, BigCardComponent, LoadingCardComponent, MoreCardComponent],
   templateUrl: './page.component.html',
-  styleUrl: './page.component.css'
+  styleUrls: ['./page.component.css', './page.response.component.css']
 })
 export class PageComponent {
 
