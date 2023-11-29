@@ -34,18 +34,118 @@
     background-color: #a6a877;
 }
 
+.normal-pokebol-color {
+    fill: #6d6e49;
+}
 
+.normal-flag1-color {
+    fill: #8f915f;
+}
+
+.normal-flag2-color {
+    fill: #a6a877;
+}
+
+.normal-flag3-color {
+    fill: #a6a877;
+}
+
+.normal-body-color {
+    background-color: #a6a877;
+}
+
+.normal-stats-color {
+    background-color: #a6a877;
+}
+
+/* Grass */
 
 .grass {
-    background-color: #77c850;
+    background-color: #c1ff72;
 }
+
+.grass-pokebol-color {
+    fill: #73af59;
+}
+
+.grass-flag1-color {
+    fill: #81bd5e;
+}
+
+.grass-flag2-color {
+    fill: #94d163;
+}
+
+.grass-flag3-color {
+    fill: #a2df68;
+}
+
+.grass-body-color {
+    background-color: #eeffd6;
+}
+
+.grass-stats-color {
+    background-color: #9ac783;
+}
+
+/* Fire  */
 
 .fire {
-    background-color: #ee7f30;
+    background-color: #ff8b8b;
 }
 
+.fire-pokebol-color {
+    fill: #d45555;
+}
+
+.fire-flag1-color {
+    fill: #dc5f5f;
+}
+
+.fire-flag2-color {
+    fill: #e66c6c;
+}
+
+.fire-flag3-color {
+    fill: #ee7575;
+}
+
+.fire-body-color {
+    background-color: #ffd4d4;
+}
+
+.fire-stats-color {
+    background-color: #e18080;
+}
+
+/* Water */
+
 .water {
-    background-color: #678fee;
+    background-color: #8cc6ce;
+}
+
+.water-pokebol-color {
+    fill: #3d8493;
+}
+
+.water-flag1-color {
+    fill: #60a4b3;
+}
+
+.water-flag2-color {
+    fill: #81b8c2;
+}
+
+.water-flag3-color {
+    fill: #b2d2d8;
+}
+
+.water-body-color {
+    background-color: #ccf9ff;
+}
+
+.water-stats-color {
+    background-color: #6ea7b3;
 }
 
 /* Eletric */
@@ -78,109 +178,392 @@
     background-color: #fcb569;
 }
 
-
 /* Ice */
 
 .ice {
-    background-color: #98d5d7;
+    background-color: #66ecff;
 }
+
+.ice-pokebol-color {
+    fill: #23aac6;
+}
+
+.ice-flag1-color {
+    fill: #2fb6d0;
+}
+
+.ice-flag2-color {
+    fill: #3fc6de;
+}
+
+.ice-flag3-color {
+    fill: #4bd2e8;
+}
+
+.ice-body-color {
+    background-color: #c9f8ff;
+}
+
+.ice-stats-color {
+    background-color: #6da7b3;
+}
+
+/* Ground */
 
 .ground {
-    background-color: #dfbf69;
+    background-color: #dba567;
 }
 
+.ground-pokebol-color {
+    fill: #89653c;
+}
+
+.ground-flag1-color {
+    fill: #987144;
+}
+
+.ground-flag2-color {
+    fill: #ab804e;
+}
+
+.ground-flag3-color {
+    fill: #ba8b56;
+}
+
+.ground-body-color {
+    background-color: #ffe2c1;
+}
+
+.ground-stats-color {
+    background-color: #ac8e6b;
+}
+
+/* Flying */
+
 .flying {
-    background-color: #a98ff0;
+    background-color: #8eade4;
 }
 
 .flying-pokebol-color {
-    fill: #a98ff0;
+    fill: #8393af;
 }
 
 .flying-flag1-color {
-    fill: #a98ff0;
+    fill: #6b83ac;
 }
 
 .flying-flag2-color {
-    fill: #a98ff0;
+    fill: #829bc4;
 }
 
 .flying-flag3-color {
-    fill: #a98ff0;
+    fill: rgb(174, 194, 230);
 }
 
 .flying-body-color {
-    background-color: #a98ff0;
+    background-color: #ccd7e9;
 }
 
 .flying-stats-color {
-    background-color: #a98ff0;
+    background-color: #a8bada;
 }
 
 /* Poison */
 
 .poison {
-    background-color: #a040a0;
+    background-color: #CE78E6;
 }
 
 .poison-pokebol-color {
-    fill: #a040a0;
+    fill: #9231ad;
 }
 
 .poison-flag1-color {
-    fill: #a040a0;
+    fill: #9d3eb7;
 }
 
 .poison-flag2-color {
-    fill: #a040a0;
+    fill: #ab4fc5;
 }
 
 .poison-flag3-color {
-    fill: #a040a0;
+    fill: #b65ccf;
 }
 
 .poison-body-color {
-    background-color: #a040a0;
+    background-color: #f5d3ff;
 }
 
 .poison-stats-color {
-    background-color: #a040a0;
+    background-color: #b167c5;
 }
 
 /* Fighting */
 
 .fighting {
-    background-color: #bf3029;
+    background-color: #b46c68;
 }
 
-.psychic {
-    background-color: #f65687;
+.fighting-pokebol-color {
+    fill: #834441;
 }
+
+.fighting-flag1-color {
+    fill: #834441;
+}
+
+.fighting-flag2-color {
+    fill: #a16764;
+}
+
+.fighting-flag3-color {
+    fill: #b17673;
+}
+
+.fighting-body-color {
+    background-color: #be9592;
+}
+
+.fighting-stats-color {
+    background-color: #a55b57;
+}
+
+/* Psychic */
+
+.psychic {
+    background-color: #df7293;
+}
+
+.psychic-pokebol-color {
+    fill: #af4d6b;
+}
+
+.psychic-flag1-color {
+    fill: #af4d6b;
+}
+
+.psychic-flag2-color {
+    fill: #be6a84;
+}
+
+.psychic-flag3-color {
+    fill: #c47c91;
+}
+
+.psychic-body-color {
+    background-color: #f8c6d4;
+}
+
+.psychic-stats-color {
+    background-color: #be6a84;
+}
+
+/* Dark */
 
 .dark {
     background-color: #725847;
 }
 
-.rock {
-    background-color: #b8a137;
+.dark-pokebol-color {
+    fill: #9231ad;
 }
+
+.dark-flag1-color {
+    fill: #9d3eb7;
+}
+
+.dark-flag2-color {
+    fill: #ab4fc5;
+}
+
+.dark-flag3-color {
+    fill: #b65ccf;
+}
+
+.dark-body-color {
+    background-color: #f5d3ff;
+}
+
+.dark-stats-color {
+    background-color: #b167c5;
+}
+
+/* Rock */
+
+.rock {
+    background-color: #928b71;
+}
+
+.rock-pokebol-color {
+    fill: #6b6655;
+}
+
+.rock-flag1-color {
+    fill: #6b6655;
+}
+
+.rock-flag2-color {
+    fill: #86816f;
+}
+
+.rock-flag3-color {
+    fill: #aca385;
+}
+
+.rock-body-color {
+    background-color: #ccc4ad;
+}
+
+.rock-stats-color {
+    background-color: #928b71;
+}
+
+/* Bug */
 
 .bug {
-    background-color: #a8b720;
+    background-color: #a6bd89;
 }
 
-.ghost {
-    background-color: #6e5896;
+.bug-pokebol-color {
+    fill: #80926a;
 }
+
+.bug-flag1-color {
+    fill: #879a70;
+}
+
+.bug-flag2-color {
+    fill: #90a477;
+}
+
+.bug-flag3-color {
+    fill: #97ac7d;
+}
+
+.bug-body-color {
+    background-color: #eeffd6;
+}
+
+.bug-stats-color {
+    background-color: #a3b28f;
+}
+
+/* Ghost */
+
+.ghost {
+    background-color: #a684af;
+}
+
+.ghost-pokebol-color {
+    fill: #775880;
+}
+
+.ghost-flag1-color {
+    fill: #7b5684;
+}
+
+.ghost-flag2-color {
+    fill: #876491;
+}
+
+.ghost-flag3-color {
+    fill: #916e9a;
+}
+
+.ghost-body-color {
+    background-color: #d7c9db;
+}
+
+.ghost-stats-color {
+    background-color: #94789c;
+}
+
+/* Steel */
 
 .steel {
     background-color: #b9b7cf;
 }
 
-.dragon {
-    background-color: #6f38f6;
+.steel-pokebol-color {
+    fill: #777680;
 }
 
+.steel-flag1-color {
+    fill: #777680;
+}
+
+.steel-flag2-color {
+    fill: #8a8799;
+}
+
+.steel-flag3-color {
+    fill: #a09eb3;
+}
+
+.steel-body-color {
+    background-color: #e8e4f8;
+}
+
+.steel-stats-color {
+    background-color: #8a8799;
+}
+
+/* Dragon */
+
+.dragon {
+    background-color: #9e7bf8;
+}
+
+.dragon-pokebol-color {
+    fill: #5f33cf;
+}
+
+.dragon-flag1-color {
+    fill: #5f33cf;
+}
+
+.dragon-flag2-color {
+    fill: #734dd4;
+}
+
+.dragon-flag3-color {
+    fill: #8563dd;
+}
+
+.dragon-body-color {
+    background-color: #c1a9fd;
+}
+
+.dragon-stats-color {
+    background-color: #8563dd;
+}
+
+/* Fairy */
+
 .fairy {
+    background-color: #f9aec7;
+}
+
+.fairy-pokebol-color {
+    fill: #9e6477;
+}
+
+.fairy-flag1-color {
+    fill: #9e6477;
+}
+
+.fairy-flag2-color {
+    fill: #b9778d;
+}
+
+.fairy-flag3-color {
+    fill: #d18da4;
+}
+
+.fairy-body-color {
+    background-color: rgb(248, 206, 220);
+}
+
+.fairy-stats-color {
     background-color: #f9aec7;
 }

@@ -1,14 +1,21 @@
-*{
+@font-face {
+    font-family: Gagalin;
+    /* src: url("./Gagalin-Regular.otf") format("opentype");; */
+    src: url("/assets/fonts/Gagalin-Regular.otf") format("opentype");
+    ;
+}
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
 
-.hide{
+.hide {
     display: none;
 }
 
-body{
+body {
     background-color: #262b2a;
 }
