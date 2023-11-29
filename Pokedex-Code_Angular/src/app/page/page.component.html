@@ -1,34 +1,38 @@
 <div id="content">
-
     <div id="pokedex-area">
-        <app-pokedex></app-pokedex>
+        <app-pokedex>
+            
+        </app-pokedex>
+
+        <select name="elements" id="elements" onchange="updateSmallCard()" style="height: 30px; position: absolute;">
+            <option value="default">Default</option>
+            <option value="normal">Normal</option>
+            <option value="grass">Grass</option>
+            <option value="fire">Fire</option>
+            <option value="water">Water</option>
+            <option value="electric">Electric</option>
+            <option value="ice">Ice</option>
+            <option value="ground">Ground</option>
+            <option value="flying">Flying</option>
+            <option value="poison">Poison</option>
+            <option value="fighting">Fighting</option>
+            <option value="psychic">Psychic</option>
+            <option value="dark">Dark</option>
+            <option value="rock">Rock</option>
+            <option value="bug">Bug</option>
+            <option value="ghost">Ghost</option>
+            <option value="steel">Steel</option>
+            <option value="dragon">Dragon</option>
+            <option value="fairy">Fairy</option>
+        </select>
     </div>
 
     <div id="cards-area">
-        <app-small-card class="card"></app-small-card>
-        <app-small-card class="card" ></app-small-card>
+        <app-small-card id="1" class="card"  pokeNumber="3" attackStats="10" defenseStats="20" speedStats="10"
+            sAttackStats="40" sDefenseStats="70">
+        </app-small-card>
+        <app-small-card id="2" class="card"></app-small-card>
         <app-loading-card class="card"></app-loading-card>
-        <app-more-card class="card"></app-more-card>
-        <app-more-card class="card"></app-more-card>
-        <app-more-card class="card"></app-more-card>
-        <app-more-card class="card"></app-more-card>
-        <app-more-card class="card"></app-more-card>
-        <app-more-card class="card"></app-more-card>
-        <app-more-card class="card"></app-more-card>
-        <app-more-card class="card"></app-more-card>
-        <app-more-card class="card"></app-more-card>
-        <app-more-card class="card"></app-more-card>
-        <app-more-card class="card"></app-more-card>
-        <app-more-card class="card"></app-more-card>
-        <app-more-card class="card"></app-more-card>
-        <app-more-card class="card"></app-more-card>
-        <app-more-card class="card"></app-more-card>
-        <app-more-card class="card"></app-more-card>
-        <app-more-card class="card"></app-more-card>
-        <app-more-card class="card"></app-more-card>
-        <app-more-card class="card"></app-more-card>
-        <app-more-card class="card"></app-more-card>
-        <app-more-card class="card"></app-more-card>
         <app-more-card class="card"></app-more-card>
     </div>
 </div>

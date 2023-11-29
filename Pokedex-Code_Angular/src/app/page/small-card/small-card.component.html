@@ -1,19 +1,19 @@
-<div id="card-container" class="water">
+<div id="card-container" class="{{selectedElement}}">
     <div id="card-header">
-        <h2 id="pokemon-number">#<span style="user-select: all;">025</span></h2>
+        <h2 id="pokemon-number">#<span style="user-select: all;">{{pokeNumberFormat}}</span></h2>
         <figure id="pokemon-image">
-            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/.gif" alt="Pokemon Img" srcset="">
-            <figcaption class="">?</figcaption>
+            <img style="pointer-events: none;" src="{{pokeFrontImage}}" alt="Pokemon Img" srcset="">
+            <figcaption class="hide">?</figcaption>
         </figure>
         <svg id="pokebal-part" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
             viewBox="30.3 38 529.06 250.7">
-            <path class="up-part water-pokebol-color"
+            <path class="up-part {{PokebolColor}}"
                 d="M559.45,288.94h-183.8c-6.77-38.5-40.32-67.74-80.7-67.74s-73.94,29.24-80.7,67.74H30.44C37.87,149.1,153.44,38,294.95,38S552.03,149.1,559.45,288.94z" />
         </svg>
         <div id="flags">
             <svg class="first-flag" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                 viewBox="41 47 99 115.1">
-                <polygon class="flag1 water-flag1-color" points="41,134 90,162 140,134 140,47 41,47" />
+                <polygon class="flag1 {{Flag1Color}}" points="41,134 90,162 140,134 140,47 41,47" />
                 <!-- os dois 47 são as pontas de cima -->
                 <!-- o 134 é o ponto de baixo à esquerda -->
                 <!-- o 162 é o ponto de baixo ao centro -->
@@ -23,7 +23,7 @@
             </svg>
             <svg class="second-flag" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                 viewBox="41 47 99 115.1">
-                <polygon class="flag2 water-flag2-color" points="41,134 90,162 140,134 140,47 41,47" />
+                <polygon class="flag2 {{Flag2Color}}" points="41,134 90,162 140,134 140,47 41,47" />
                 <!-- os dois 47 são as pontas de cima -->
                 <!-- o 134 é o ponto de baixo à esquerda -->
                 <!-- o 162 é o ponto de baixo ao centro -->
@@ -33,7 +33,7 @@
             </svg>
             <svg class="three-flag" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                 viewBox="41 47 99 115.1">
-                <polygon class="flag3 water-flag3-color" points="41,134 90,162 140,134 140,47 41,47" />
+                <polygon class="flag3 {{Flag3Color}}" points="41,134 90,162 140,134 140,47 41,47" />
                 <!-- os dois 47 são as pontas de cima -->
                 <!-- o 134 é o ponto de baixo à esquerda -->
                 <!-- o 162 é o ponto de baixo ao centro -->
@@ -43,7 +43,7 @@
             </svg>
         </div>
     </div>
-    <div id="card-body" class="water-body-color">
+    <div id="card-body" class="{{BodyColor}}">
         <div id="pokemon-name">
             <h1>Name</h1>
         </div>
@@ -51,31 +51,31 @@
             <div class="line-stats resalt">
                 <p class="name-stats">Attack</p>
                 <div class="stats">
-                    <p class="stats-number water-stats-color" style="width: 40%;">40</p>
+                    <p class="stats-number {{StatsColor}}" style="width: {{attackStats}}%;">{{attackStats}}</p>
                 </div>
             </div>
             <div class="line-stats">
                 <p class="name-stats">Defense</p>
                 <div class="stats">
-                    <p class="stats-number water-stats-color" style="width: 80%;">80</p>
+                    <p class="stats-number {{StatsColor}}" style="width: {{defenseStats}}%;">{{defenseStats}}</p>
                 </div>
             </div>
             <div class="line-stats resalt">
                 <p class="name-stats">Speed</p>
                 <div class="stats">
-                    <p class="stats-number water-stats-color" style="width: 60%;">60</p>
+                    <p class="stats-number {{StatsColor}}" style="width: {{speedStats}}%;">{{speedStats}}</p>
                 </div>
             </div>
             <div class="line-stats">
                 <p class="name-stats">S.Attack</p>
                 <div class="stats">
-                    <p class="stats-number water-stats-color" style="width: 30%;">30</p>
+                    <p class="stats-number {{StatsColor}}" style="width: {{sAttackStats}}%;">{{sAttackStats}}</p>
                 </div>
             </div>
             <div class="line-stats resalt">
                 <p class="name-stats">S.Defense</p>
                 <div class="stats">
-                    <p class="stats-number water-stats-color" style="width: 17%;">10</p>
+                    <p class="stats-number {{StatsColor}}" style="width: {{sDefenseStats}}%;">{{sDefenseStats}}</p>
                 </div>
             </div>
         </div>

@@ -14,5 +14,5 @@ import { PokedexComponent } from './pokedex/pokedex.component';
   styleUrls: ['./page.component.css', './page.response.component.css']
 })
 export class PageComponent {
-
+  
 }
