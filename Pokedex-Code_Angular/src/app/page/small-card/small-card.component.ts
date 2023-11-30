@@ -12,15 +12,13 @@ export class SmallCardComponent {
   @Input() pokeNumber: string = "1";
   @Input() selectedElement: string = "default";
 
-  pokeFrontImage: string;
-  pokeBackImage: string;
-  pokeNumberFormat: string;
-
   @Input() attackStats:string = "8";
   @Input() defenseStats:string = "8";
   @Input() speedStats:string = "8";
   @Input() sAttackStats:string = "8";
   @Input() sDefenseStats:string = "8";
+
+  // Cores 
 
   get PokebolColor(): string {
     return `${this.selectedElement}-pokebol-color`;
@@ -45,11 +43,24 @@ export class SmallCardComponent {
   get StatsColor(): string {
     return `${this.selectedElement}-stats-color`;
   }
-  
-  constructor() {
-    this.pokeFrontImage = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/${this.pokeNumber}.gif`;
-    this.pokeBackImage = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/${this.pokeNumber}.gif`;
 
-    this.pokeNumberFormat = `${this.pokeNumber}`.padStart(3, '0');
+  // Img
+
+  get pokemonFrontImg (): string {
+    return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/${this.pokeNumber}.gif`;
+  }
+
+  get pokemonBackImg (): string {
+    return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/${this.pokeNumber}.gif`;
+  }
+
+  // Numero
+  
+  get pokeNumberFormat () :string {
+    return `${this.pokeNumber}`.padStart(3, '0');
+  }
+
+
+  constructor() {
   }
 }
