@@ -28,3 +28,7 @@
 #cards-area .card {
     margin: 1vh;
 }
+
+app-small-card{
+    display: flex;
+}

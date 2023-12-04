@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SmallCardComponent } from './small-card/small-card.component';
 import { BigCardComponent } from './big-card/big-card.component';
@@ -14,5 +14,37 @@ import { PokedexComponent } from './pokedex/pokedex.component';
   styleUrls: ['./page.component.css', './page.response.component.css']
 })
 export class PageComponent {
+    card: HTMLSelectElement | null;
+    // smallCard: HTMLSelectElement | null;
+
+    selectedElement:any = "default";
   
-}
+    constructor() {
+      // Inicialize card como null
+      this.card = null;
+  
+      // Agora, card será atribuído após o carregamento do DOM
+      document.addEventListener('DOMContentLoaded', () => {
+        this.card = document.getElementById("elements") as HTMLSelectElement;
+      });
+    }
+  
+    oninit() {
+    }
+    
+    updateSmallCard() {
+      var smallCard = document.getElementById("1");
+      var inputedElement = this.card?.value
+
+      
+      if (this.card) {
+        this.selectedElement = inputedElement;
+        // console.log(smallCard) 
+        // console.log(inputedElement); 
+      } else {
+        console.log("Card é nulo.");
+      }
+    }
+  }
+  
+  
