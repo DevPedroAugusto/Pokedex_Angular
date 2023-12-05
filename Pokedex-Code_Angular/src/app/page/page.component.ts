@@ -19,7 +19,7 @@ export class PageComponent {
   inputPokeNumber: HTMLSelectElement | null;
   // smallCard: HTMLSelectElement | null;
 
-  selectedElement: any = "default";
+  selectedElement: any = "electric";
   attackStats: any = "8"
   pokeNumber: any = "107"
 

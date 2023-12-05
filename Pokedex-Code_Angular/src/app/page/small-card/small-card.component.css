@@ -194,3 +194,9 @@
 #pokemon-stats .stats-number:hover{
     color: #363636;
 }
+
+
+#pokemon-stats .second-bar{
+    /* background: linear-gradient(to right, #ff7e5f, #feb47b); */
+    filter: brightness(70%);
+}
