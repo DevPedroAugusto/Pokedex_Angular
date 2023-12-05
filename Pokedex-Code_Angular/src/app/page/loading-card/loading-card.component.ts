@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -9,5 +9,18 @@ import { CommonModule } from '@angular/common';
   styleUrl: './loading-card.component.css'
 })
 export class LoadingCardComponent {
+
+  constructor(){
+    document.addEventListener('DOMContentLoaded', () => {
+      this.animateLoading();
+    });
+  }
+
+  animateLoading(){
+    const firstPoint = document.getElementById ("first-point")
+    const secondPoint = document.getElementById ("second-point")
+    const threePoint = document.getElementById ("three-point")
+
+  }
 
 }

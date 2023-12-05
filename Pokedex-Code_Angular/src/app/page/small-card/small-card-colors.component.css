@@ -61,27 +61,27 @@
 /* Grass */
 
 .grass {
-    background-color: #c1ff72;
+    background-color: #ace264;
 }
 
 .grass-pokebol-color {
-    fill: #73af59;
+    fill: #6ba353;
 }
 
 .grass-flag1-color {
-    fill: #81bd5e;
+    fill: #71a759;
 }
 
 .grass-flag2-color {
-    fill: #94d163;
+    fill: #9ccc75;
 }
 
 .grass-flag3-color {
-    fill: #a2df68;
+    fill: rgb(180, 235, 128);
 }
 
 .grass-body-color {
-    background-color: #eeffd6;
+    background-color: #e3fac3;
 }
 
 .grass-stats-color {

@@ -1,11 +1,14 @@
 <div id="content">
     <div id="pokedex-area">
         <app-pokedex>
-            
+
         </app-pokedex>
 
+        <input id="input-number" type="number" style="position: absolute; top: 40px;" min="1" max="649"
+        (change)="updatePokemom()">
+        <input id="slide-bar" type="range" style="position: absolute; top: 70px; transform: scaleX(-1);" (input)="updatePokeStats()">
         <select name="elements" id="elements" (input)="updateSmallCard()" style="height: 30px; position: absolute;">
-            <option value="default" selected>Default</option>
+            <option value="default">Default</option>
             <option value="normal">Normal</option>
             <option value="grass">Grass</option>
             <option value="fire">Fire</option>
@@ -28,11 +31,8 @@
     </div>
 
     <div id="cards-area">
-        <app-small-card
-        id="1" class="card"  
-        pokeNumber= "120"
-        [selectedElement]="selectedElement"
-        attackStats="10" defenseStats="20" speedStats="10" sAttackStats="40" sDefenseStats="70" >
+        <app-small-card id="1" class="card" [pokeNumber]="pokeNumber" [selectedElement]="selectedElement"
+            [attackStats]="attackStats" defenseStats="20" speedStats="10" sAttackStats="40" sDefenseStats="70">
         </app-small-card>
         <app-small-card id="2" class="card"></app-small-card>
         <app-loading-card class="card"></app-loading-card>
