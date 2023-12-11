@@ -10,13 +10,14 @@ import { CommonModule } from '@angular/common';
 })
 export class SmallCardComponent {
   @Input() pokeNumber: string = "1";
-  @Input() selectedElement: string = "default";
+  @Input() selectedElement: string = "eletric";
 
   @Input() attackStats:string = "8";
   @Input() defenseStats:string = "8";
   @Input() speedStats:string = "8";
   @Input() sAttackStats:string = "8";
   @Input() sDefenseStats:string = "8";
+  @Input() PokemonName:string = "Pikachu";
 
   // Cores 
 
@@ -52,6 +53,9 @@ export class SmallCardComponent {
 
   get pokemonBackImg (): string {
     return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/${this.pokeNumber}.gif`;
+  }
+  get pokemonFrontShine (): string {
+    return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/${this.pokeNumber}.gif`;
   }
 
   // Numero

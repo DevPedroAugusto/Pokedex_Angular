@@ -2,8 +2,8 @@
     <div id="card-header">
         <h2 id="pokemon-number">#<span style="user-select: all;">{{pokeNumberFormat}}</span></h2>
         <figure id="pokemon-image">
-            <img style="pointer-events: none;" src="{{pokemonFrontImg}}" alt="Pokemon Img" srcset="">
-            <figcaption class="hide">?</figcaption>
+            <img style="pointer-events: none;" src="{{pokemonFrontShine}}" alt="Pokemon Img" srcset="">
+            <figcaption class="hide"></figcaption>
         </figure>
         <svg id="pokebal-part" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
             viewBox="30.3 38 529.06 250.7">
@@ -14,38 +14,26 @@
             <svg class="first-flag" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                 viewBox="41 47 99 115.1">
                 <polygon class="flag1 {{Flag1Color}}" points="41,134 90,162 140,134 140,47 41,47" />
-                <!-- os dois 47 são as pontas de cima -->
-                <!-- o 134 é o ponto de baixo à esquerda -->
-                <!-- o 162 é o ponto de baixo ao centro -->
-                <!-- o 134 é o ponto de baixo à direita -->
-                <text x="70" y="120" font-family="Arial" font-size="30" fill="white" font-weight ="bold">Nv</text>
-                <text x="84" y="150" font-family="Arial" font-size="20" fill="white" font-weight ="bold">1</text>
+                <text x="70" y="120" font-family="Arial" font-size="30" fill="white" font-weight="bold">Nv</text>
+                <text x="84" y="150" font-family="Arial" font-size="20" fill="white" font-weight="bold">1</text>
             </svg>
             <svg class="second-flag" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                 viewBox="41 47 99 115.1">
                 <polygon class="flag2 {{Flag2Color}}" points="41,134 90,162 140,134 140,47 41,47" />
-                <!-- os dois 47 são as pontas de cima -->
-                <!-- o 134 é o ponto de baixo à esquerda -->
-                <!-- o 162 é o ponto de baixo ao centro -->
-                <!-- o 134 é o ponto de baixo à direita -->
-                <text x="70" y="120" font-family="Arial" font-size="30" fill="white" font-weight ="bold">Nv</text>
-                <text x="84" y="150" font-family="Arial" font-size="20" fill="white" font-weight ="bold">2</text>
+                <text x="70" y="120" font-family="Arial" font-size="30" fill="white" font-weight="bold">Nv</text>
+                <text x="84" y="150" font-family="Arial" font-size="20" fill="white" font-weight="bold">2</text>
             </svg>
             <svg class="three-flag" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                 viewBox="41 47 99 115.1">
                 <polygon class="flag3 {{Flag3Color}}" points="41,134 90,162 140,134 140,47 41,47" />
-                <!-- os dois 47 são as pontas de cima -->
-                <!-- o 134 é o ponto de baixo à esquerda -->
-                <!-- o 162 é o ponto de baixo ao centro -->
-                <!-- o 134 é o ponto de baixo à direita -->
-                <text x="70" y="120" font-family="Arial" font-size="30" fill="white" font-weight ="bold">Nv</text>
-                <text x="84" y="150" font-family="Arial" font-size="20" fill="white" font-weight ="bold">3</text>
+                <text x="70" y="120" font-family="Arial" font-size="30" fill="white" font-weight="bold">Nv</text>
+                <text x="84" y="150" font-family="Arial" font-size="20" fill="white" font-weight="bold">3</text>
             </svg>
         </div>
     </div>
     <div id="card-body" class="{{BodyColor}}">
         <div id="pokemon-name">
-            <h1>Name</h1>
+            <h1>{{PokemonName}}<span id="shiny" class="logo"> Shiny</span></h1>
         </div>
         <div id="pokemon-stats">
             <div class="line-stats resalt">
@@ -56,7 +44,7 @@
                 </div>
             </div>
             <div class="line-stats">
-                <p class="name-stats">Defense</p>
+                <p class="name-stats ">Defense</p>
                 <div class="stats">
                     <p class="stats-number {{StatsColor}}" style="width: {{defenseStats}}%;">{{defenseStats}}</p>
                     <p class="stats-number second-bar {{StatsColor}}" style="width: 35%;">{{defenseStats}}</p>
