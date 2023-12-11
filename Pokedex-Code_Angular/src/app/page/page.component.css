@@ -4,6 +4,12 @@
 
     display: flex;
     height: 100vh;
+    /* background-image: url("/assets/imgs/background-trees.jpg"); */
+    /* background-image: url("/assets/imgs/thumb-1920-662102.png"); */
+    /* background-image: url("/assets/imgs/Background-Pokemon-FIX-2-2.png"); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 #pokedex-area {
@@ -31,9 +37,12 @@
     height: 363px;
 
     margin: 1vh;
-    transition: transform 0.1s;
+    transition: transform 0.1s, filter 0.5s;
+    filter: opacity(80%) blur(1px);
+    transform: scale(95%);
 }
 
 #cards-area .card:hover{
-    transform: scale(101%);
+    transform: scale(100%);
+    filter: opacity(100%) blur(0px);
 }

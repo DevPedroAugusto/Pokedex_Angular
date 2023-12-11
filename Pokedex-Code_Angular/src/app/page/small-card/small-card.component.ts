@@ -17,7 +17,7 @@ export class SmallCardComponent {
   @Input() speedStats:string = "8";
   @Input() sAttackStats:string = "8";
   @Input() sDefenseStats:string = "8";
-  @Input() PokemonName:string = "Pikachu";
+  @Input() PokemonName:string = "Name";
 
   // Cores 
 
@@ -49,6 +49,26 @@ export class SmallCardComponent {
 
   get pokemonFrontImg (): string {
     return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/${this.pokeNumber}.gif`;
+  }
+
+  get pokemonFrontV2Img (): string {
+    return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/${this.pokeNumber}.gif`;
+  }
+
+  get pokemonFrontV3Img (): string {
+    return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/${this.pokeNumber}.png`;
+  }
+
+  get pokemonFrontV4Img (): string {
+    return `https://raw.githubusercontent.com/PokeAPI/sprites/ceff190a63a58c266a2d8bc10525f56a83ff3992/sprites/pokemon/other/dream-world/${this.pokeNumber}.svg`;
+  }
+
+  get pokemonFrontV5Img (): string {
+    return `https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/regular/bulbasaur.png`;
+  }
+
+  get pokemonFrontV5Shine (): string {
+    return `https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/shiny/bulbasaur.png`;
   }
 
   get pokemonBackImg (): string {

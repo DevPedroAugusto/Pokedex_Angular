@@ -21,7 +21,7 @@ export class PageComponent {
 
   selectedElement: any = "default";
   attackStats: any = "8"
-  pokeNumber: any = "107"
+  pokeNumber: any = "487"
 
 
   constructor() {
